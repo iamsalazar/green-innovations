@@ -22,4 +22,4 @@ dtff.to_csv(file_path)
 
 datamerged = utils.get_aws_data('merged_data.csv')
 filemerge_path=os.path.expandvars(prj_path+'/green-innovations-finance/data/merged_data.csv')
-df_short.to_csv(filemerge_path)
+datamerged.to_csv(filemerge_path)
